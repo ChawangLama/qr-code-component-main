@@ -17,13 +17,14 @@ html{
     display: flex;
     align-items: center;
     justify-self: center;
+    justify-content: center;
     flex-direction: column;
     margin: 50px 0 50px 0;
     text-align: center;
     
 }
 #qr{
-    height: 38vh;
+    height: auto;
     width: 18vw;
     margin-top: 15px;
     margin-bottom: 30px;
@@ -33,14 +34,14 @@ html{
 .bold{
     font-family: "Outfit", sans-serif;
     font-weight: 700;
-    font-size: 17px;
-    width: 15vw;
+    font-size: 1.3rem;
+    width: 18vw;
     margin-bottom: 20px;
 }
 .small{
     font-family: "Outfit", sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 1rem;
 }
 .attribution { 
     font-size: 11px; text-align: center;
@@ -49,20 +50,21 @@ html{
      color: hsl(228, 45%, 44%);
 }
 @media (max-width: 500px  ) {
-.box{
-    height: 80vh;
-    width: 60vw;
+    .box{
+        
+    height: auto;
+    width: 15em;
 }
 #qr{
-    height: 50vh;
-    width: 55vw;
+    height:auto;
+    width: 14rem;
 }
 .bold{
-    font-size: 20px;
-    width: 15rem;
+    font-size: 1.1em;
+    width: 12em;
 }
 .small{
-    font-weight: 400;
-    font-size: 15px;
+    width: 12em;
+    font-size: 1.1em;
 }
 }
